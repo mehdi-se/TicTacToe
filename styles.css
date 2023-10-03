@@ -6,6 +6,7 @@ body {
   align-items: center;
   height: 100vh;
   flex-direction: column;
+  background-color: rgb(149, 197, 181);
 }
 
 #container {
@@ -20,7 +21,7 @@ body {
 .square {
   width: 100px;
   height: 100px;
-  background-color: white;
+  background-color: wheat;
   border: solid 2px black;
   box-sizing: border-box;
   display: flex;
@@ -62,4 +63,8 @@ body {
   height: 30%;
   margin-top: -15%;
   width: 100%;
+}
+#btn {
+  color: white;
+  background-color: darkgreen;
 }
